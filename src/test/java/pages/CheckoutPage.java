@@ -66,9 +66,9 @@ public class CheckoutPage {
         loginPage.inputUserValid(username, password);
         loginPage.clickLoginButton();
 
-        //checkoutPage.clickOnProduct();
-        //checkoutPage.clickAddToCartButton();
-        //checkoutPage.validateProductAddedToCart();
+        checkoutPage.clickOnProduct();
+        checkoutPage.clickAddToCartButton();
+        checkoutPage.validateProductAddedToCart();
     }
     public void clickCartPage() {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
